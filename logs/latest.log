@@ -1,0 +1,140 @@
+[14:55:23] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.3+1-adhoc.Administrator.jdk21u; OpenLogic OpenLogic-OpenJDK) on Windows 10 10.0 (amd64)
+[14:55:23] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-81-master@da71382 (2024-12-03T14:58:13Z) for Minecraft 1.21.3
+[14:55:25] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:55:25] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[14:55:30] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:55:33] [ServerMain/INFO]: Loaded 1337 recipes
+[14:55:33] [ServerMain/INFO]: Loaded 1448 advancements
+[14:55:33] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[14:55:33] [Server thread/WARN]: ****************************
+[14:55:33] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[14:55:33] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[14:55:33] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[14:55:33] [Server thread/WARN]: ****************************
+[14:55:33] [Server thread/INFO]: Loading properties
+[14:55:33] [Server thread/INFO]: This server is running Paper version 1.21.3-81-master@da71382 (2024-12-03T14:58:13Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[14:55:34] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:55:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:55:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:55:35] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[14:55:35] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:55:35] [Server thread/INFO]: Default game type: SURVIVAL
+[14:55:35] [Server thread/INFO]: Generating keypair
+[14:55:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:55:36] [Server thread/INFO]: Using default channel type
+[14:55:36] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[14:55:36] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[14:55:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:55:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:55:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:55:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:55:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:55:36] [Server thread/INFO]: Preparing level "world"
+[14:55:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:55:37] [Server thread/INFO]: Preparing spawn area: 0%
+[14:55:37] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[14:55:37] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 295.8ms
+[14:55:37] [Server thread/INFO]: Preparing spawn area: 2%
+[14:55:37] [Server thread/INFO]: Preparing spawn area: 8%
+[14:55:38] [Server thread/INFO]: Time elapsed: 1284 ms
+[14:55:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:55:38] [Server thread/INFO]: Preparing spawn area: 0%
+[14:55:38] [Server thread/INFO]: Time elapsed: 172 ms
+[14:55:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:55:38] [Server thread/INFO]: Preparing spawn area: 0%
+[14:55:38] [Server thread/INFO]: Time elapsed: 153 ms
+[14:55:38] [Server thread/INFO]: [spark] Starting background profiler...
+[14:55:38] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[14:55:38] [Server thread/INFO]: Done preparing level "world" (2.386s)
+[14:55:38] [Server thread/INFO]: Running delayed init tasks
+[14:55:38] [Server thread/INFO]: Done (16.064s)! For help, type "help"
+[14:55:39] [User Authenticator #0/INFO]: UUID of player huzaifa is 9358b1de-9777-3db9-be42-21cf9b7fc831
+[14:55:39] [Server thread/INFO]: huzaifa joined the game
+[14:55:39] [Server thread/INFO]: huzaifa[/127.0.0.1:61945] logged in with entity id 34 at ([world]320.975127697255, 63.0, -103.20032951112053)
+[14:55:40] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 10f32685-27c0-4e4e-a16c-cd5ac3234355, mapped to EnderMan['Enderman'/49, uuid='10f32685-27c0-4e4e-a16c-cd5ac3234355', l='ServerLevel[world]', x=261.35, y=63.00, z=-86.50, cpos=[16, -6], tl=12416, v=true], can't add EnderMan['Enderman'/64, uuid='10f32685-27c0-4e4e-a16c-cd5ac3234355', l='ServerLevel[world]', x=252.52, y=55.92, z=-83.39, cpos=[15, -6], tl=15256, v=false]
+[14:55:40] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 55487759-f52f-4f49-a674-c4a1a63aeab4, mapped to Creeper['Creeper'/48, uuid='55487759-f52f-4f49-a674-c4a1a63aeab4', l='ServerLevel[world]', x=258.53, y=57.00, z=-88.77, cpos=[16, -6], tl=272, v=true], can't add Creeper['Creeper'/65, uuid='55487759-f52f-4f49-a674-c4a1a63aeab4', l='ServerLevel[world]', x=250.83, y=61.00, z=-87.50, cpos=[15, -6], tl=3112, v=false]
+[14:55:40] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 10f32685-27c0-4e4e-a16c-cd5ac3234355, mapped to EnderMan['Enderman'/49, uuid='10f32685-27c0-4e4e-a16c-cd5ac3234355', l='ServerLevel[world]', x=261.35, y=63.00, z=-86.50, cpos=[16, -6], tl=12416, v=true], can't add EnderMan['Enderman'/85, uuid='10f32685-27c0-4e4e-a16c-cd5ac3234355', l='ServerLevel[world]', x=239.48, y=61.00, z=-91.41, cpos=[14, -6], tl=16061, v=false]
+[14:55:54] [User Authenticator #0/INFO]: UUID of player mabdullah is 71d4f262-8cfd-311b-bc0c-9e3ae0385a79
+[14:55:57] [Server thread/INFO]: mabdullah joined the game
+[14:55:57] [Server thread/INFO]: mabdullah[/127.21.100.73:61958] logged in with entity id 407 at ([world]163.7347919118237, 91.03427627577663, -184.38368011035004)
+[14:56:56] [User Authenticator #1/INFO]: UUID of player mabdullah is 71d4f262-8cfd-311b-bc0c-9e3ae0385a79
+[14:56:56] [Server thread/INFO]: mabdullah lost connection: You logged in from another location
+[14:56:56] [Server thread/INFO]: mabdullah left the game
+[14:56:59] [Server thread/INFO]: mabdullah joined the game
+[14:56:59] [Server thread/INFO]: mabdullah[/127.21.100.73:61967] logged in with entity id 751 at ([world]163.90041370793335, 87.0, -215.74718653099438)
+[14:57:34] [Server thread/INFO]: mabdullah lost connection: Timed out
+[14:57:34] [Server thread/INFO]: mabdullah left the game
+[14:57:40] [User Authenticator #1/INFO]: UUID of player mabdullah is 71d4f262-8cfd-311b-bc0c-9e3ae0385a79
+[14:57:44] [Server thread/INFO]: mabdullah joined the game
+[14:57:44] [Server thread/INFO]: mabdullah[/127.21.100.73:61970] logged in with entity id 1002 at ([world]136.51178301818172, 80.0, -200.82576035751015)
+[14:58:24] [Server thread/INFO]: mabdullah lost connection: Timed out
+[14:58:24] [Server thread/INFO]: mabdullah left the game
+[14:58:29] [User Authenticator #1/INFO]: UUID of player mabdullah is 71d4f262-8cfd-311b-bc0c-9e3ae0385a79
+[14:58:32] [Server thread/INFO]: mabdullah joined the game
+[14:58:32] [Server thread/INFO]: mabdullah[/127.21.100.73:61975] logged in with entity id 1256 at ([world]138.30850149042567, 78.0, -199.82370983851658)
+[14:59:06] [Server thread/INFO]: mabdullah lost connection: Timed out
+[14:59:06] [Server thread/INFO]: mabdullah left the game
+[14:59:12] [User Authenticator #1/INFO]: UUID of player mabdullah is 71d4f262-8cfd-311b-bc0c-9e3ae0385a79
+[14:59:16] [Server thread/INFO]: mabdullah joined the game
+[14:59:16] [Server thread/INFO]: mabdullah[/127.21.100.73:61978] logged in with entity id 1437 at ([world]137.66763198285344, 74.0, -199.05161520279114)
+[15:00:11] [Server thread/INFO]: mabdullah lost connection: Timed out
+[15:00:11] [Server thread/INFO]: mabdullah left the game
+[15:00:18] [User Authenticator #2/INFO]: UUID of player mabdullah is 71d4f262-8cfd-311b-bc0c-9e3ae0385a79
+[15:00:22] [Server thread/INFO]: mabdullah joined the game
+[15:00:22] [Server thread/INFO]: mabdullah[/127.21.100.73:61980] logged in with entity id 1702 at ([world]148.72356957818536, 92.0, -169.06252379319392)
+[15:01:33] [Server thread/INFO]: mabdullah lost connection: Timed out
+[15:01:33] [Server thread/INFO]: mabdullah left the game
+[15:01:38] [User Authenticator #3/INFO]: UUID of player mabdullah is 71d4f262-8cfd-311b-bc0c-9e3ae0385a79
+[15:01:42] [Server thread/INFO]: mabdullah joined the game
+[15:01:42] [Server thread/INFO]: mabdullah[/127.21.100.73:61982] logged in with entity id 1879 at ([world]264.1360829821621, 96.0, -70.49401845822321)
+[15:02:20] [Server thread/INFO]: mabdullah lost connection: Timed out
+[15:02:20] [Server thread/INFO]: mabdullah left the game
+[15:05:22] [User Authenticator #4/INFO]: UUID of player mabdullah is 71d4f262-8cfd-311b-bc0c-9e3ae0385a79
+[15:05:25] [Server thread/INFO]: mabdullah joined the game
+[15:05:25] [Server thread/INFO]: mabdullah[/127.21.100.73:61989] logged in with entity id 2280 at ([world]260.37199949902515, 99.17319996740818, -67.47550491653371)
+[15:05:56] [Server thread/INFO]: mabdullah lost connection: Timed out
+[15:05:56] [Server thread/INFO]: mabdullah left the game
+[15:06:00] [User Authenticator #4/INFO]: UUID of player mabdullah is 71d4f262-8cfd-311b-bc0c-9e3ae0385a79
+[15:06:15] [Server thread/INFO]: mabdullah joined the game
+[15:06:15] [Server thread/INFO]: mabdullah[/127.21.100.73:61991] logged in with entity id 2348 at ([world]269.0282722347857, 85.0, -139.25626686544226)
+[15:06:52] [Server thread/INFO]: mabdullah lost connection: Disconnected
+[15:06:52] [Server thread/INFO]: mabdullah left the game
+[15:07:07] [User Authenticator #5/INFO]: UUID of player mabdullah is 71d4f262-8cfd-311b-bc0c-9e3ae0385a79
+[15:07:09] [Server thread/INFO]: mabdullah joined the game
+[15:07:09] [Server thread/INFO]: mabdullah[/127.21.100.73:61998] logged in with entity id 2519 at ([world]269.0282722347857, 85.0, -139.25626686544226)
+[15:09:38] [Server thread/INFO]: huzaifa has made the advancement [Suit Up]
+[15:36:11] [Server thread/INFO]: mabdullah was slain by Phantom
+[15:39:37] [Server thread/INFO]: mabdullah was shot by Skeleton
+[15:40:25] [Server thread/INFO]: mabdullah fell off some vines
+[15:43:17] [Server thread/INFO]: huzaifa issued server command: /
+[15:46:01] [Server thread/INFO]: mabdullah lost connection: Timed out
+[15:46:01] [Server thread/INFO]: mabdullah left the game
+[15:46:07] [User Authenticator #6/INFO]: UUID of player mabdullah is 71d4f262-8cfd-311b-bc0c-9e3ae0385a79
+[15:46:09] [Server thread/INFO]: mabdullah joined the game
+[15:46:09] [Server thread/INFO]: mabdullah[/127.21.100.73:62084] logged in with entity id 9103 at ([world]446.17831941875954, 64.0, -96.04393757385334)
+[15:46:26] [Server thread/INFO]: mabdullah lost connection: Disconnected
+[15:46:26] [Server thread/INFO]: mabdullah left the game
+[15:46:45] [User Authenticator #6/INFO]: UUID of player mabdullah is 71d4f262-8cfd-311b-bc0c-9e3ae0385a79
+[15:46:47] [Server thread/INFO]: mabdullah joined the game
+[15:46:47] [Server thread/INFO]: mabdullah[/127.21.100.73:62090] logged in with entity id 9170 at ([world]442.75107074544235, 64.0, -87.60301772001063)
+[15:47:52] [Server thread/INFO]: mabdullah lost connection: Disconnected
+[15:47:52] [Server thread/INFO]: mabdullah left the game
+[15:48:26] [User Authenticator #7/INFO]: UUID of player mabdullah is 71d4f262-8cfd-311b-bc0c-9e3ae0385a79
+[15:48:29] [Server thread/INFO]: mabdullah joined the game
+[15:48:29] [Server thread/INFO]: mabdullah[/127.21.100.73:62098] logged in with entity id 9363 at ([world]443.7175333913148, 64.0, -86.55749770900233)
+[15:49:23] [Server thread/INFO]: mabdullah lost connection: Timed out
+[15:49:23] [Server thread/INFO]: mabdullah left the game
+[15:49:23] [User Authenticator #7/INFO]: UUID of player mabdullah is 71d4f262-8cfd-311b-bc0c-9e3ae0385a79
+[15:49:28] [Server thread/INFO]: mabdullah joined the game
+[15:49:28] [Server thread/INFO]: mabdullah[/127.21.100.73:62104] logged in with entity id 9465 at ([world]441.79896680898355, 64.0, -89.06486640014192)
+[15:50:15] [Server thread/INFO]: mabdullah lost connection: Timed out
+[15:50:15] [Server thread/INFO]: mabdullah left the game
+[15:50:21] [User Authenticator #7/INFO]: UUID of player mabdullah is 71d4f262-8cfd-311b-bc0c-9e3ae0385a79
+[15:50:24] [Server thread/INFO]: mabdullah joined the game
+[15:50:24] [Server thread/INFO]: mabdullah[/127.21.100.73:62110] logged in with entity id 9583 at ([world]443.8256358368331, 64.0, -92.13310592612584)
+[15:51:01] [Server thread/INFO]: mabdullah lost connection: Timed out
+[15:51:01] [Server thread/INFO]: mabdullah left the game
+[15:51:15] [User Authenticator #7/INFO]: UUID of player mabdullah is 71d4f262-8cfd-311b-bc0c-9e3ae0385a79
+[15:51:18] [Server thread/INFO]: com.mojang.authlib.GameProfile@57d912e8[id=71d4f262-8cfd-311b-bc0c-9e3ae0385a79,name=mabdullah,properties={}] lost connection: Internal Exception: java.net.SocketException: Connection reset
+[15:53:18] [Server thread/INFO]: huzaifa lost connection: Disconnected
+[15:53:18] [Server thread/INFO]: huzaifa left the game
